@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="title">
+
+        <item>ห้ามเลียวซ้าย</item>
+        <item>ห้ามเลียวขวา</item>
+        <item>ให้ตรงไป</item>
+        <item>ให้เลียวขวา</item>
+        <item>ให้เลียวซ้าย</item>
+        <item>ทางออก</item>
+        <item>ทางเข้า</item>
+        <item>ทางออก</item>
+        <item>หยุด</item>
+        <item>จำกัดความสูง 2.5 เมตร</item>
+        <item>แยกซ้ายขวา</item>
+        <item>ห้ามกลับรถ</item>
+        <item>ห้ามจอด</item>
+        <item>รถสวนเลน</item>
+        <item>ห้ามแซง</item>
+        <item>ทางเข้า</item>
+        <item>หยุดตรวจ</item>
+        <item>จำกัดความเร็ว 50 km/hr</item>
+        <item>จำกัดความกว่าง 2.5 m</item>
+        <item>จำกัดความสูง 5 m</item>
+
+    </string-array>
+
+</resources>

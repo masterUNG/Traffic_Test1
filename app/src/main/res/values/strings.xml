@@ -3,4 +3,8 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_main">ความหมายป้ายจราจร</string>
+    <string name="test">บททดสอบ</string>
+
+
 </resources>
