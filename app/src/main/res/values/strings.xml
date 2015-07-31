@@ -9,6 +9,7 @@
     <string name="question1">1. ป้ายนี่ หมายถึงข้อใด ?</string>
     <string name="andwer">ตอบคำถาม</string>
     <string name="title_activity_show_score">ShowScoreActivity</string>
+    <string name="showscore">คะแนนของคุณ</string>
 
 
 </resources>

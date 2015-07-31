@@ -1,9 +1,12 @@
 package appewtc.masterung.traffic;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.TextView;
 
 public class ShowScoreActivity extends AppCompatActivity {
 
@@ -11,6 +14,25 @@ public class ShowScoreActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_show_score);
+
+        showScore();
+
+    }   // onCreate
+
+    private void showScore() {
+        int intScore = getIntent().getIntExtra("Score", 0);
+        TextView showTextView = (TextView) findViewById(R.id.txtShowScore);
+        showTextView.setText(Integer.toString(intScore) + "/10");
+    }
+
+    public void cllickTestShowScore(View view) {
+        startActivity(new Intent(this, TestActivity.class));
+        finish();
+    }
+
+    public void clickTitle(View view) {
+        startActivity(new Intent(this, MainActivity.class));
+        finish();
     }
 
     @Override
@@ -34,4 +56,4 @@ public class ShowScoreActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
-}
+}   // Main Class

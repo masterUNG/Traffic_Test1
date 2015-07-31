@@ -18,7 +18,7 @@ public class TestActivity extends AppCompatActivity {
     private String[] questionStrings;
     private TextView questionTextView;
     private ImageView trafficImageView;
-    private int imageAnInt[], radioAnInt, indexInts;
+    private int imageAnInt[], radioAnInt, indexInts, scoreAnInt;
     private RadioGroup choiceRadioGroup;
     private RadioButton choice1RadioButton, choice2RadioButton, choice3RadioButton, choice4RadioButton;
 
@@ -73,9 +73,15 @@ public class TestActivity extends AppCompatActivity {
             Toast.makeText(TestActivity.this, "โปรตอบคำถาม", Toast.LENGTH_SHORT).show();
         } else {
             if (indexInts == 9) {
-                startActivity(new Intent(this, ShowScoreActivity.class));
+                Intent objIntent = new Intent(TestActivity.this, ShowScoreActivity.class);
+                objIntent.putExtra("Score", scoreAnInt);
+                startActivity(objIntent);
                 finish();
             } else {
+
+                //Check Score
+                checkScore();
+
 
                 //Increase indexAnInt
                 indexInts += 1;
@@ -86,6 +92,16 @@ public class TestActivity extends AppCompatActivity {
         }
 
     } // clickTest
+
+    private void checkScore() {
+
+        int[] intAnswer = {1, 2, 3, 4, 1, 2, 3, 4, 1, 2};
+        if (radioAnInt == intAnswer[indexInts]) {
+            scoreAnInt += 1;
+        }
+        //Clear Check
+        choiceRadioGroup.clearCheck();
+    }
 
     private void changeView() {
 
