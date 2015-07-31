@@ -49,5 +49,77 @@
         <item>ไม่มีข้อไหนถูก</item>
 
     </string-array>
+    <string-array name="times2">
+
+        <item>ห้ามเลียวซ้าย</item>
+        <item>ห้ามเลียวขวา</item>
+        <item>ห้ามมาจากทางซ้าย</item>
+        <item>ไม่มีข้อไหนถูก</item>
+
+    </string-array>
+    <string-array name="times3">
+
+        <item>ห้ามเลียวซ้าย</item>
+        <item>ให้เลียวซ้าย</item>
+        <item>ให้ตรงไป</item>
+        <item>ไม่มีข้อไหนถูก</item>
+
+    </string-array>
+    <string-array name="times4">
+
+        <item>ห้ามเลียวซ้าย</item>
+        <item>ให้เลียวซ้าย</item>
+        <item>ห้ามมาจากทางซ้าย</item>
+        <item>ให้เลียวขวา</item>
+
+    </string-array>
+    <string-array name="times5">
+
+        <item>ให้เลียวซ้าย</item>
+        <item>ให้เลียวซ้าย</item>
+        <item>ห้ามมาจากทางซ้าย</item>
+        <item>ไม่มีข้อไหนถูก</item>
+
+    </string-array>
+    <string-array name="times6">
+
+        <item>ห้ามเลียวซ้าย</item>
+        <item>ทางออก</item>
+        <item>ห้ามมาจากทางซ้าย</item>
+        <item>ไม่มีข้อไหนถูก</item>
+
+    </string-array>
+    <string-array name="times7">
+
+        <item>ห้ามเลียวซ้าย</item>
+        <item>ให้เลียวซ้าย</item>
+        <item>ทางเข้า</item>
+        <item>ไม่มีข้อไหนถูก</item>
+
+    </string-array>
+    <string-array name="times8">
+
+        <item>ห้ามเลียวซ้าย</item>
+        <item>ให้เลียวซ้าย</item>
+        <item>ห้ามมาจากทางซ้าย</item>
+        <item>ทางออก</item>
+
+    </string-array>
+    <string-array name="times9">
+
+        <item>หยูดรถ</item>
+        <item>ไม่ให้รถหยุด</item>
+        <item>อย่าหยุด</item>
+        <item>ไม่มีข้อไหนถูก</item>
+
+    </string-array>
+    <string-array name="times10">
+
+        <item>ห้ามเลียวซ้าย</item>
+        <item>รถสุงไม่เกิน 2.5 เมตร</item>
+        <item>ห้ามมาจากทางซ้าย</item>
+        <item>ไม่มีข้อไหนถูก</item>
+
+    </string-array>
 
 </resources>

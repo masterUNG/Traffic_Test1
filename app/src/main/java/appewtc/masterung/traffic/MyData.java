@@ -5,6 +5,14 @@ package appewtc.masterung.traffic;
  */
 public class MyData {
 
+    public int[] choiceTimes() {
+
+        int[] intTimes = {R.array.times1, R.array.times2, R.array.times3, R.array.times4, R.array.times5,
+                R.array.times6, R.array.times7, R.array.times8, R.array.times9, R.array.times10};
+
+        return intTimes;
+    }
+
     public int[] addressIcon() {
 
         int[] intIcon = {R.drawable.traffic_01, R.drawable.traffic_02, R.drawable.traffic_03, R.drawable.traffic_04, R.drawable.traffic_05,
