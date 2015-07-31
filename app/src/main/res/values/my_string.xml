@@ -26,4 +26,28 @@
 
     </string-array>
 
+    <string-array name="question">
+
+        <item>1. ป้ายนี่ หมายถึงข้อใด ?</item>
+        <item>2. ป้ายนี่ หมายถึงข้อใด ?</item>
+        <item>3. ป้ายนี่ หมายถึงข้อใด ?</item>
+        <item>4. ป้ายนี่ หมายถึงข้อใด ?</item>
+        <item>5. ป้ายนี่ หมายถึงข้อใด ?</item>
+        <item>6. ป้ายนี่ หมายถึงข้อใด ?</item>
+        <item>7. ป้ายนี่ หมายถึงข้อใด ?</item>
+        <item>8. ป้ายนี่ หมายถึงข้อใด ?</item>
+        <item>9. ป้ายนี่ หมายถึงข้อใด ?</item>
+        <item>10. ป้ายนี่ หมายถึงข้อใด ?</item>
+
+    </string-array>
+
+    <string-array name="times1">
+
+        <item>ห้ามเลียวซ้าย</item>
+        <item>ให้เลียวซ้าย</item>
+        <item>ห้ามมาจากทางซ้าย</item>
+        <item>ไม่มีข้อไหนถูก</item>
+
+    </string-array>
+
 </resources>

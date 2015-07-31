@@ -6,6 +6,8 @@
     <dimen name="my_padding">15dp</dimen>
     <dimen name="icon">100dp</dimen>
     <dimen name="my_padding_small">8dp</dimen>
+    <dimen name="h2">20dp</dimen>
+    <dimen name="image">250dp</dimen>
 
 
 </resources>
